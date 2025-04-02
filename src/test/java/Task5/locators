@@ -1,0 +1,62 @@
+Text Input
+By.id ( "my-text-id" )
+By.cssSelector ( "#my-text-id" )
+By.xpath ( "//input[@id='my-text-id']" )
+By.name ( "my-text" )
+By.xpath ( "//*[@myprop='myvalue']" )
+
+Password
+By.className ( ".form-control" )
+By.xpath ( "//input[@name='my-password']" )
+By.xpath ("//*[@type='password']" )
+By.name ( "my-password" )
+By.cssSelector ( ".col-md-4:nth-child(1) > .form-label:nth-child(2) > .form-control" )
+By.xpath ( "//label[2]/input" )
+
+Textarea
+By.xpath ( "//textarea[@name='my-textarea']" )
+By.name ( "my-textarea" )
+By.xpath ( "//label[contains(.,'Textarea')]" )
+By.cssSelector ( ".col-md-4:nth-child(1) > .form-label:nth-child(3)" )
+By.xpath ( "//label[3]" )
+
+Dropdown (select)
+By.name ( "my-select" )
+By.xpath ("//select[@name='my-select']")
+
+Option (select)
+By.cssSelector ( "option[value='1']" )
+By.cssSelector ( "option[value='2']" )
+By.cssSelector ( "option[value='3']" )
+
+Dropdown (datalist)
+By.cssSelector ( ".col-md-4:nth-child(2) > .form-label:nth-child(2) > .form-control" )
+By.xpath ("//input[@name='my-datalist']")
+
+checkboxChecked
+By.id ( "my-check-1" )
+By.cssSelector ("#my-check-1")
+
+checkboxDefault
+By.id ( "my-check-2" )
+By.xpath ("//div[2]/div/label[2]/input")
+
+radioButton1
+By.id ( "my-radio-1" )
+By.xpath ("//input[@id='my-radio-1']")
+By.xpath ("//div[2]/div[2]/label/input")
+
+radioButton2
+By.id ( "my-radio-2" )
+By.cssSelector ("#my-radio-2")
+
+data
+By.xpath ( "//input[@name='my-date']" )
+By.cssSelector ( "tr:nth-child(2) > .day:nth-child(4)" )
+
+slider
+By.xpath ( "//input[@name='my-range']"
+
+submitButton
+By.tagName("button")
+By.cssSelector (".btn.btn-outline-primary.mt-3")
